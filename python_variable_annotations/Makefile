@@ -100,7 +100,7 @@ touch:
 	touch  $(Main_file)
 	code $(Main_file)
 
-	echo "#!/usr/bin/python3" >> "$(Function_file)"
+	echo "#!/usr/bin/env python3" >> "$(Function_file)"
 	echo "''' $(Function_file) vaiable annotations '''" >> "$(Function_file)"
 	echo "" >> "$(Function_file)"
 	echo "" >> "$(Function_file)"
