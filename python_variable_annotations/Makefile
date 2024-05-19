@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 3-to_str.py
+Function_file = 4-define_variables.py
 
 
 main:
