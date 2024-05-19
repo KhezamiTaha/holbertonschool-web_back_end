@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 4-define_variables.py
+Function_file = 5-sum_list.py
 
 
 main:
