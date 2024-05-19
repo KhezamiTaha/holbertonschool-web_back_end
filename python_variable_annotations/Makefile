@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 1-concat.py
+Function_file = 2-floor.py
 
 
 main:
