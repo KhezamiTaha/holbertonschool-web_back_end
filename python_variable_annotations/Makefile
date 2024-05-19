@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 2-floor.py
+Function_file = 3-to_str.py
 
 
 main:
