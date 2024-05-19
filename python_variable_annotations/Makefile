@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 5-sum_list.py
+Function_file = 6-sum_mixed_list.py
 
 
 main:
