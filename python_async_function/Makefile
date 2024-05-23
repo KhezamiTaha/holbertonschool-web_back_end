@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 3-tasks.py
+Function_file = 4-tasks.py
 
 
 main:
