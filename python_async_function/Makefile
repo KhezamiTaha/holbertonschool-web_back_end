@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 1-concurrent_coroutines.py
+Function_file = 2-measure_runtime.py
 
 
 main:
