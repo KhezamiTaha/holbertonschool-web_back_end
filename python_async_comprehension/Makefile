@@ -1,6 +1,7 @@
 #This is a Makefile
 
 Function_file = 0-async_generator.py
+Project = python_async_comprehension
 
 
 main:
@@ -101,7 +102,7 @@ touch:
 	code $(Main_file)
 
 	echo "#!/usr/bin/env python3" >> "$(Function_file)"
-	echo "''' $(Function_file) Async IO '''" >> "$(Function_file)"
+	echo "''' $(Function_file) $(Project) '''" >> "$(Function_file)"
 	echo "" >> "$(Function_file)"
 	echo "" >> "$(Function_file)"
 touch1:
