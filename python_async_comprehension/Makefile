@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 1-async_comprehension.py
+Function_file = 2-measure_runtime.py
 Project = python_async_comprehension
 
 
