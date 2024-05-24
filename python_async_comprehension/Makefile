@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 0-async_generator.py
+Function_file = 1-async_comprehension.py
 Project = python_async_comprehension
 
 
