@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 6-update
+Function_file = 7-delete
 
 Project = python_async_comprehension
 
