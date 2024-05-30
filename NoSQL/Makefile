@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 2-insert
+Function_file = 3-all
 Project = python_async_comprehension
 
 
