@@ -8,7 +8,7 @@ main:
 #chmod u+x $(Main_file)
 	chmod u+x $(Function_file)
 #black $(Function_file) 
-	pycodestyle $(Function_file)
+#pycodestyle $(Function_file)
 #./$(Main_file)
 	cat $(Function_file) | mongo my_db
 
