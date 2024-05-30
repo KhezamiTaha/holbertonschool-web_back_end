@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 1-use_or_create_database
+Function_file = 2-insert
 Project = python_async_comprehension
 
 
@@ -10,7 +10,7 @@ main:
 #black $(Function_file) 
 	pycodestyle $(Function_file)
 #./$(Main_file)
-	cat $(Function_file) | mongo
+	cat $(Function_file) | mongo my_db
 
 
 data:
