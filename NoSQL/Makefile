@@ -1,17 +1,17 @@
 #This is a Makefile
 
-Function_file = 7-delete
+Function_file = 8-all.py
 
-Project = python_async_comprehension
+Project = NoSQL
 
 
 main:
-#chmod u+x $(Main_file)
+	chmod u+x $(Main_file)
 	chmod u+x $(Function_file)
 #black $(Function_file) 
-#pycodestyle $(Function_file)
-#./$(Main_file)
-	cat $(Function_file) | mongo my_db
+	pycodestyle $(Function_file)
+	./$(Main_file)
+#cat $(Function_file) | mongo my_db
 
 
 data:
