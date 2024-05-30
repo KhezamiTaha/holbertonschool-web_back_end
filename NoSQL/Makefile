@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 8-all.py
+Function_file = 9-insert_school.py
 
 Project = NoSQL
 
