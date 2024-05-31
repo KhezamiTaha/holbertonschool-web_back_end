@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 2-hypermedia_pagination.py
+Function_file = 3-hypermedia_del_pagination.py
 
 Project = pagination
 
