@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 3-default-parameter.js
+Function_file = 4-rest-parameter.js
 
 Project = pagination
 
