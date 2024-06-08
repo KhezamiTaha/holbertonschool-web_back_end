@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 4-rest-parameter.js
+Function_file = 5-spread-operator.js
 
 Project = pagination
 
