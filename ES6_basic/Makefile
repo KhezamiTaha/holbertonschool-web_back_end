@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 5-spread-operator.js
+Function_file = 6-string-interpolation.js
 
 Project = pagination
 
