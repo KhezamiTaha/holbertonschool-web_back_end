@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 3-hypermedia_del_pagination.py
+Function_file = 1-block-scoped.js
 
 Project = pagination
 
@@ -9,8 +9,10 @@ main:
 	chmod u+x $(Main_file)
 	chmod u+x $(Function_file)
 #black $(Function_file) 
-	pycodestyle $(Function_file)
-	./$(Main_file)
+#pycodestyle $(Function_file)
+	npx eslint $(Function_file) --fix
+	npm run dev $(Main_file)
+#./$(Main_file)
 #cat $(Function_file) | mongo my_db
 
 
@@ -24,7 +26,7 @@ data:
 
 #Main_file = test_save_reload_user.py 
 
-Main_file =    $(number)-main.py
+Main_file =    $(number)-main.js
 
 NAME =  #!/usr/bin/python3
 NAME1 =  def raise_exception_msg(message=""):
@@ -97,7 +99,7 @@ create_files:
 		touch $$i-index.html; \
 	done
 
-touch:
+touch1:
 	touch $(Function_file)
 	code $(Function_file)
 	touch  $(Main_file)
@@ -107,10 +109,11 @@ touch:
 	echo "''' $(Function_file) $(Project) '''" >> "$(Function_file)"
 	echo "" >> "$(Function_file)"
 	echo "" >> "$(Function_file)"
-touch1:
+touch:
 	touch $(Function_file)
 	code $(Function_file)
-
+	touch  $(Main_file)
+	code $(Main_file)
 git:
 	rm -rf __pycache__
 	$(git)
