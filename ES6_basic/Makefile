@@ -10,7 +10,7 @@ main:
 	chmod u+x $(Function_file)
 #black $(Function_file) 
 #pycodestyle $(Function_file)
-	npx eslint $(Function_file) --fix
+	npx eslint $(Function_file)
 	npm run dev $(Main_file)
 #./$(Main_file)
 #cat $(Function_file) | mongo my_db
