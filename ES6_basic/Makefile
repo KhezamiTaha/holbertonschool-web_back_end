@@ -1,9 +1,8 @@
 #This is a Makefile
 
-Function_file = 2-arrow.js
+Function_file = 3-default-parameter.js
 
 Project = pagination
-
 
 main:
 	chmod u+x $(Main_file)
