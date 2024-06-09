@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 6-string-interpolation.js
+Function_file = 7-getBudgetObject.js
 
 Project = pagination
 
