@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 9-getFullBudget.js
+Function_file = 10-loops.js
 
 Project = pagination
 
@@ -9,7 +9,7 @@ main:
 	chmod u+x $(Function_file)
 #black $(Function_file) 
 #pycodestyle $(Function_file)
-	npx eslint $(Function_file) --fix
+	npx eslint $(Function_file)
 	npm run dev $(Main_file)
 #./$(Main_file)
 #cat $(Function_file) | mongo my_db
