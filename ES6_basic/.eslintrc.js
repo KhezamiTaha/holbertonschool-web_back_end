@@ -24,8 +24,7 @@ module.exports = {
           'error',
           'LabeledStatement',
           'WithStatement',
-      ],
-      'indent': ['error', 4],
+      ]
   },
   overrides: [
       {
