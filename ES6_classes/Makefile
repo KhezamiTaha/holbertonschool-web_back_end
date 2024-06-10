@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 2-hbtn_course.js
+Function_file = 3-currency.js
 
 Project = pagination
 
