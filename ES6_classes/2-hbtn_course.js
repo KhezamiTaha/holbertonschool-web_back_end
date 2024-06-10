@@ -13,7 +13,7 @@ export default class HolbertonCourse {
       throw new TypeError('Expected an array of strings for students');
     }
     this._name = name;
-    this._lenght = length;
+    this._length = length;
     this._students = students;
   }
 
