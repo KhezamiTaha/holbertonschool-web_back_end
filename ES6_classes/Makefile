@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 1-make_classrooms.js
+Function_file = 2-hbtn_course.js
 
 Project = pagination
 
