@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 3-currency.js
+Function_file = 4-pricing.js
 
 Project = pagination
 
