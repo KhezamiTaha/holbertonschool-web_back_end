@@ -30,14 +30,14 @@ export default class Pricing {
 
   // Setter for name
   set currency(newcurrency) {
-    if (newcurrency instanceof Currency) {
+    if (!(newcurrency instanceof Currency)) {
       throw new TypeError('currency must be a Currency');
     }
     this._currency = newcurrency;
   }
 
   displayFullPrice() {
-    return `${this._amount} ${this._currency.name} (${this._currency.code})`;
+    return `${this._amount} ${this.currency.name} (${this.currency.code})`;
   }
 
   static convertPrice(amount, conversionRate) {
