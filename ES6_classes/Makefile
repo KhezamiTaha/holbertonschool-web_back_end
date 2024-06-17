@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 8-hbtn_class.js
+Function_file = 9-hoisting.js
 
 Project = pagination
 
