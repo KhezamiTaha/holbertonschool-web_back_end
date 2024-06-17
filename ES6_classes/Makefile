@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 9-hoisting.js
+Function_file = 10-car.js
 
 Project = pagination
 
