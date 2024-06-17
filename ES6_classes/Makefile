@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 4-pricing.js
+Function_file = 5-building.js
 
 Project = pagination
 
