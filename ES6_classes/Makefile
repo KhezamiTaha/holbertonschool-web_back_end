@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 5-building.js
+Function_file = 6-sky_high.js
 
 Project = pagination
 
