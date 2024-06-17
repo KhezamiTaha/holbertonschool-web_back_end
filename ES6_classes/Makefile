@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 7-airport.js
+Function_file = 8-hbtn_class.js
 
 Project = pagination
 
