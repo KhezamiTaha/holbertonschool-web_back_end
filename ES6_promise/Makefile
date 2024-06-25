@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 2-then.js
+Function_file = 3-all.js
 
 Project = pagination
 
