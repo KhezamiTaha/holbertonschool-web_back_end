@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 6-final-user.js
+Function_file = 7-load_balancer.js
 
 Project = pagination
 
