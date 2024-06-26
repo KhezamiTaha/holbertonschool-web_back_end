@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 5-photo-reject.js
+Function_file = 6-final-user.js
 
 Project = pagination
 
