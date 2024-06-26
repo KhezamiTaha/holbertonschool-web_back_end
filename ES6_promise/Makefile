@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 8-try.js
+Function_file = 9-try.js
 
 Project = pagination
 
