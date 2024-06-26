@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 3-all.js
+Function_file = 4-user-promise.js
 
 Project = pagination
 
