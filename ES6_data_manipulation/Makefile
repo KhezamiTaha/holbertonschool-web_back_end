@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 1-get_list_student_ids.js
+Function_file = 2-get_students_by_loc.js
 
 Project = pagination
 
@@ -111,6 +111,7 @@ touch1:
 touch:
 	touch $(Function_file)
 	code $(Function_file)
+	echo "export default function " >> "$(Function_file)"
 	touch  $(Main_file)
 	code $(Main_file)
 git:
