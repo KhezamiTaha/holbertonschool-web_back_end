@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 2-get_students_by_loc.js
+Function_file = 3-get_ids_sum.js
 
 Project = pagination
 
