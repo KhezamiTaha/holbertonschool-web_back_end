@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 9-groceries_list.js
+Function_file = 10-update_uniq_items.js
 
 Project = pagination
 
