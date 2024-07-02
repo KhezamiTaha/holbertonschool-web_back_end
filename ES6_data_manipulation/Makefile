@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 6-set.js
+Function_file = 7-has_array_values.js
 
 Project = pagination
 
