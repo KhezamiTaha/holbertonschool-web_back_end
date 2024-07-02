@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 8-clean_set.js
+Function_file = 9-groceries_list.js
 
 Project = pagination
 
