@@ -75,6 +75,6 @@ Implémentation de la fonction `get_timezone` pour définir dynamiquement le fus
 Pour lancer les tests manuels, accédez aux différentes URLs de l'application en changeant les paramètres `locale`, `login_as`, `timezone` pour vérifier le comportement attendu.
 
 ## Auteurs
-- Emmanuel Turlay, Staff Software Engineer chez Cruise
-- student at Holberton school : Erwan Lebreton
+- Emmanuel Turlay, Staff Software Engineer chez Cruise.
+- student at Holberton school : Khezami Taha
 
