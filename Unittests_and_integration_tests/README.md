@@ -128,5 +128,5 @@ python -m unittest path/to/test_file.py
 ---
 
 ## 👨‍💻 Author
-Emmanuel Turlay, Staff Software Engineer at Cruise
-Erwan Lebreton, student at Holberton School
+Emmanuel Turlay, Staff Software Engineer at Cruise.
+Taha Khezami, student at Holberton School
